@@ -20,6 +20,7 @@ export default function Header() {
     { href: "/products", label: "Products" },
     { href: "/about", label: "About" },
     { href: "/contact", label: "Contact" },
+    { href: "/dashboard", label: "Dashboard" },
   ]
 
   // Handle scroll effect
