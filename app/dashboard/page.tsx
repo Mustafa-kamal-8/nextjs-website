@@ -28,7 +28,7 @@ const Dashboard = () => {
 
   useEffect(() => {
     axios
-      .get("http://localhost:5000/api/user/get-message")
+      .get("http://128.199.18.49/api/api/user/get-message")
       .then((response) => {
         setData(response.data);
         setLoading(false);

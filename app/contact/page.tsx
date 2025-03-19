@@ -46,7 +46,7 @@ export default function ContactPage() {
   async function onSubmit(values: z.infer<typeof formSchema>) {
     setIsSubmitting(true);
     try {
-      const response = await fetch("http://localhost:5000/api/user/message", {
+      const response = await fetch("http://128.199.18.49/api/api/user/message", {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
